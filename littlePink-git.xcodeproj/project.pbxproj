@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A02AE1C92A723641008882BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02AE1C82A723641008882BD /* Main.storyboard */; };
+		A02AE1CB2A72368E008882BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02AE1CA2A72368D008882BD /* LaunchScreen.storyboard */; };
 		A07514D52A6D16800069881F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07514D42A6D16800069881F /* AppDelegate.swift */; };
 		A07514D72A6D16800069881F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07514D62A6D16800069881F /* SceneDelegate.swift */; };
 		A07514D92A6D16800069881F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07514D82A6D16800069881F /* ViewController.swift */; };
-		A07514DC2A6D16800069881F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07514DA2A6D16800069881F /* Main.storyboard */; };
 		A07514DE2A6D16820069881F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07514DD2A6D16820069881F /* Assets.xcassets */; };
-		A07514E12A6D16820069881F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07514DF2A6D16820069881F /* LaunchScreen.storyboard */; };
 		A0B4EC302A6F9FAA0034687C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A0B4EC2F2A6F9FAA0034687C /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A02AE1C82A723641008882BD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A02AE1CA2A72368D008882BD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A07514D12A6D16800069881F /* littlePink-git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "littlePink-git.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07514D42A6D16800069881F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A07514D62A6D16800069881F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A07514D82A6D16800069881F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A07514DB2A6D16800069881F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A07514DD2A6D16820069881F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A07514E02A6D16820069881F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A07514E22A6D16820069881F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0B4EC2F2A6F9FAA0034687C /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,9 +62,9 @@
 				A07514D42A6D16800069881F /* AppDelegate.swift */,
 				A07514D62A6D16800069881F /* SceneDelegate.swift */,
 				A07514D82A6D16800069881F /* ViewController.swift */,
-				A07514DA2A6D16800069881F /* Main.storyboard */,
+				A02AE1C82A723641008882BD /* Main.storyboard */,
+				A02AE1CA2A72368D008882BD /* LaunchScreen.storyboard */,
 				A07514DD2A6D16820069881F /* Assets.xcassets */,
-				A07514DF2A6D16820069881F /* LaunchScreen.storyboard */,
 				A07514E22A6D16820069881F /* Info.plist */,
 			);
 			path = "littlePink-git";
@@ -129,9 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0B4EC302A6F9FAA0034687C /* .gitignore in Resources */,
-				A07514E12A6D16820069881F /* LaunchScreen.storyboard in Resources */,
+				A02AE1CB2A72368E008882BD /* LaunchScreen.storyboard in Resources */,
 				A07514DE2A6D16820069881F /* Assets.xcassets in Resources */,
-				A07514DC2A6D16800069881F /* Main.storyboard in Resources */,
+				A02AE1C92A723641008882BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,25 +149,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A07514DA2A6D16800069881F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A07514DB2A6D16800069881F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A07514DF2A6D16820069881F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A07514E02A6D16820069881F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A07514E32A6D16820069881F /* Debug */ = {
@@ -294,11 +275,13 @@
 				DEVELOPMENT_TEAM = 9VX3RUK938;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "littlePink-git/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "小粉书";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +289,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feng.littlePink-git";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,11 +308,13 @@
 				DEVELOPMENT_TEAM = 9VX3RUK938;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "littlePink-git/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "小粉书";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,9 +322,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.feng.littlePink-git";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
