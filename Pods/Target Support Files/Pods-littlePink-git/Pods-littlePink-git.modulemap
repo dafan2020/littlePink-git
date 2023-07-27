@@ -1,0 +1,6 @@
+framework module Pods_littlePink_git {
+  umbrella header "Pods-littlePink-git-umbrella.h"
+
+  export *
+  module * { export * }
+}
