@@ -19,6 +19,10 @@
 		A0C79A212A75ED4400084545 /* DiscoveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C79A202A75ED4400084545 /* DiscoveryVC.swift */; };
 		A0C79A232A75ED5500084545 /* NearVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C79A222A75ED5500084545 /* NearVC.swift */; };
 		A0C79A252A75EF4B00084545 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C79A242A75EF4B00084545 /* Constants.swift */; };
+		A0C79A282A773CB800084545 /* waterFallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C79A272A773CB800084545 /* waterFallVC.swift */; };
+		A0C79A2A2A77450900084545 /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C79A292A77450900084545 /* WaterfallCell.swift */; };
+		A0C79A2F2A77834900084545 /* testVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C79A2E2A77834900084545 /* testVC.swift */; };
+		A0C79A312A77846700084545 /* testCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C79A302A77846700084545 /* testCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,11 @@
 		A0C79A202A75ED4400084545 /* DiscoveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVC.swift; sourceTree = "<group>"; };
 		A0C79A222A75ED5500084545 /* NearVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearVC.swift; sourceTree = "<group>"; };
 		A0C79A242A75EF4B00084545 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A0C79A272A773CB800084545 /* waterFallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterFallVC.swift; sourceTree = "<group>"; };
+		A0C79A292A77450900084545 /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
+		A0C79A2D2A77716800084545 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		A0C79A2E2A77834900084545 /* testVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVC.swift; sourceTree = "<group>"; };
+		A0C79A302A77846700084545 /* testCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +64,7 @@
 		A07514C82A6D16800069881F = {
 			isa = PBXGroup;
 			children = (
+				A0C79A2D2A77716800084545 /* readme.md */,
 				A0B4EC2F2A6F9FAA0034687C /* .gitignore */,
 				A07514D32A6D16800069881F /* littlePink-git */,
 				A07514D22A6D16800069881F /* Products */,
@@ -77,8 +87,11 @@
 				A07514D42A6D16800069881F /* AppDelegate.swift */,
 				A07514D62A6D16800069881F /* SceneDelegate.swift */,
 				A02AE1C82A723641008882BD /* Main.storyboard */,
+				A0C79A302A77846700084545 /* testCell.swift */,
+				A0C79A2E2A77834900084545 /* testVC.swift */,
+				A0C79A2B2A7770CA00084545 /* WaterFall */,
 				A0C79A262A75F38A00084545 /* Home */,
-				A0C79A242A75EF4B00084545 /* Constants.swift */,
+				A0C79A2C2A77710D00084545 /* Commen */,
 				A02AE1CA2A72368D008882BD /* LaunchScreen.storyboard */,
 				A07514DD2A6D16820069881F /* Assets.xcassets */,
 				A07514E22A6D16820069881F /* Info.plist */,
@@ -95,6 +108,23 @@
 				A0C79A222A75ED5500084545 /* NearVC.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		A0C79A2B2A7770CA00084545 /* WaterFall */ = {
+			isa = PBXGroup;
+			children = (
+				A0C79A272A773CB800084545 /* waterFallVC.swift */,
+				A0C79A292A77450900084545 /* WaterfallCell.swift */,
+			);
+			name = WaterFall;
+			sourceTree = "<group>";
+		};
+		A0C79A2C2A77710D00084545 /* Commen */ = {
+			isa = PBXGroup;
+			children = (
+				A0C79A242A75EF4B00084545 /* Constants.swift */,
+			);
+			path = Commen;
 			sourceTree = "<group>";
 		};
 		D6E6EA47D063BB7FE5314E4E /* Frameworks */ = {
@@ -232,11 +262,15 @@
 			files = (
 				A0C79A212A75ED4400084545 /* DiscoveryVC.swift in Sources */,
 				A07514D52A6D16800069881F /* AppDelegate.swift in Sources */,
+				A0C79A312A77846700084545 /* testCell.swift in Sources */,
 				A0C79A1F2A75ED2400084545 /* FollowVC.swift in Sources */,
+				A0C79A2A2A77450900084545 /* WaterfallCell.swift in Sources */,
 				A0C79A1D2A75E5E700084545 /* HomeVC.swift in Sources */,
 				A0C79A252A75EF4B00084545 /* Constants.swift in Sources */,
+				A0C79A2F2A77834900084545 /* testVC.swift in Sources */,
 				A0C79A232A75ED5500084545 /* NearVC.swift in Sources */,
 				A07514D72A6D16800069881F /* SceneDelegate.swift in Sources */,
+				A0C79A282A773CB800084545 /* waterFallVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

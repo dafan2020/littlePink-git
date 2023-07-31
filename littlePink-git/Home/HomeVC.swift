@@ -11,7 +11,10 @@ import XLPagerTabStrip;
 
 class HomeVC: ButtonBarPagerTabStripViewController {
 
-    //MASK: 设置上方bar 按钮 条的UI
+    //MARK: 设置上方bar 按钮 条的UI
+    //MARK: - haha
+    //MARK: - o no
+    
     override func viewDidLoad() {
         settings.style.selectedBarBackgroundColor = UIColor(named: "main")!
         settings.style.selectedBarHeight = 3;
@@ -24,6 +27,19 @@ class HomeVC: ButtonBarPagerTabStripViewController {
         
         super.viewDidLoad()
         
+        containerView.bounces = false;
+        
+        changeCurrentIndexProgressive = { (oldCell: ButtonBarViewCell?, newCell: ButtonBarViewCell?, progressPercentage: CGFloat, changeCurrentIndex: Bool, animated: Bool) -> Void in
+            guard changeCurrentIndex == true else { return }
+            oldCell?.label.textColor = .secondaryLabel;
+            newCell?.label.textColor = .label
+            
+        }
+//        DispatchQueue.main.async {
+//            self.moveToViewController(at: 1, animated: false);
+//        }
+        //用来改变默认的选中tab
+        
         // Do any additional setup after loading the view.
     }
     
@@ -31,8 +47,10 @@ class HomeVC: ButtonBarPagerTabStripViewController {
         let followVC = storyboard!.instantiateViewController(withIdentifier: kFollowVCID);
         let nearVC = storyboard!.instantiateViewController(withIdentifier: kNearVCID);
         let discoveryVC = storyboard!.instantiateViewController(withIdentifier: kDiscoveryVCID);
-        return [followVC,nearVC,discoveryVC];
+        return [followVC,discoveryVC,nearVC];
     }
     
-
+    
+    
+    
 }
