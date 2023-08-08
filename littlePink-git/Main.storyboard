@@ -3,7 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -253,10 +253,10 @@
             </objects>
             <point key="canvasLocation" x="769" y="-1809"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab BarVC-->
         <scene sceneID="oxl-BD-s6f">
             <objects>
-                <tabBarController definesPresentationContext="YES" id="hIC-mE-ib2" sceneMemberID="viewController">
+                <tabBarController definesPresentationContext="YES" id="hIC-mE-ib2" customClass="TabBarVC" customModule="littlePink_git" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8xb-mi-2C5">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -293,7 +293,7 @@
         <!--发布-->
         <scene sceneID="QaG-gy-lry">
             <objects>
-                <viewController id="8kM-ew-lQ2" sceneMemberID="viewController">
+                <viewController id="8kM-ew-lQ2" customClass="PostVC" customModule="littlePink_git" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iFx-pg-Ye8">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

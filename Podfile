@@ -8,4 +8,37 @@ target 'littlePink-git' do
   # Pods for littlePink-git
     pod 'XLPagerTabStrip', '~> 9.0'
     pod 'CHTCollectionViewWaterfallLayout'
+    pod 'YPImagePicker'
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
