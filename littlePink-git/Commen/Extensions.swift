@@ -9,6 +9,20 @@ import Foundation
 import CHTCollectionViewWaterfallLayout
 import XLPagerTabStrip
 
+extension UIView{
+    @IBInspectable
+    var Radius: CGFloat{
+        get{
+            layer.cornerRadius
+        }
+        set{
+            self.layer.cornerRadius = newValue;
+        }
+    }
+}
+
+
+
 extension waterFallVC: CHTCollectionViewDelegateWaterfallLayout{
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         UIImage(named: "\(indexPath.item + 1)")!.size
@@ -25,7 +39,21 @@ extension waterFallVC: IndicatorInfoProvider{
     
 }
 
-
+extension UIViewController{
+    
+    //MARK: - 展示加载框和提示框
+    
+    //MARK: -加载框
+    
+    
+    //MARK: -提示框
+    func showTextHUD(_ title: String,_ subTitle: String? = nil){
+        let hud = MBProgressHUD.showAdded(to: view, animated: true)
+        hud.mode = .text
+        hud.label.text = title;
+        hud.hide(animated: true, afterDelay: 2)
+    }
+}
 
 
 

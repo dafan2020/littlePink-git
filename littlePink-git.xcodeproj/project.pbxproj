@@ -12,11 +12,16 @@
 		A02AE1CB2A72368E008882BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02AE1CA2A72368D008882BD /* LaunchScreen.storyboard */; };
 		A02EF0952A786E370095A902 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02EF0942A786E370095A902 /* TabBarVC.swift */; };
 		A02EF0972A7871370095A902 /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02EF0962A7871370095A902 /* PostVC.swift */; };
-		A05483982A81F028005FAE68 /* TabBarC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05483972A81F028005FAE68 /* TabBarC.swift */; };
+		A04397BA2AA6FA7700EDF355 /* testVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A04397B92AA6F97400EDF355 /* testVideo.mp4 */; };
+		A04397BC2AA6FD6E00EDF355 /* NoteEditVC-DragDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04397BB2AA6FD6E00EDF355 /* NoteEditVC-DragDrop.swift */; };
+		A04397BE2AA71BC000EDF355 /* NoteEditVC-CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04397BD2AA71BC000EDF355 /* NoteEditVC-CollectionView.swift */; };
 		A054839A2A820739005FAE68 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05483992A820739005FAE68 /* Extensions.swift */; };
 		A07514D52A6D16800069881F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07514D42A6D16800069881F /* AppDelegate.swift */; };
 		A07514D72A6D16800069881F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07514D62A6D16800069881F /* SceneDelegate.swift */; };
 		A07514DE2A6D16820069881F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07514DD2A6D16820069881F /* Assets.xcassets */; };
+		A084B3682A9F28DA00229F24 /* PhotoFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A084B3672A9F28DA00229F24 /* PhotoFooter.swift */; };
+		A0A774D12A9C33EA0038BAC5 /* NoteEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A774D02A9C33EA0038BAC5 /* NoteEditVC.swift */; };
+		A0A774D32A9C451C0038BAC5 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A774D22A9C451C0038BAC5 /* PhotoCell.swift */; };
 		A0B4EC302A6F9FAA0034687C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A0B4EC2F2A6F9FAA0034687C /* .gitignore */; };
 		A0C79A1D2A75E5E700084545 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C79A1C2A75E5E700084545 /* HomeVC.swift */; };
 		A0C79A1F2A75ED2400084545 /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C79A1E2A75ED2400084545 /* FollowVC.swift */; };
@@ -33,17 +38,28 @@
 		2F3881356806FF45D431A49B /* Pods-littlePink-git.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-littlePink-git.debug.xcconfig"; path = "Target Support Files/Pods-littlePink-git/Pods-littlePink-git.debug.xcconfig"; sourceTree = "<group>"; };
 		7410012298097E13363649BE /* Pods-littlePink-git.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-littlePink-git.release.xcconfig"; path = "Target Support Files/Pods-littlePink-git/Pods-littlePink-git.release.xcconfig"; sourceTree = "<group>"; };
 		9B73A008A37B593C8E70E941 /* Pods_littlePink_git.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_littlePink_git.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01A0F6F2A9EDD5200C37C6D /* metatype.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = metatype.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A01A0F702A9EE61500C37C6D /* Resources */ = {isa = PBXFileReference; lastKnownFileType = text; name = Resources; path = metatype.playground/Resources; sourceTree = "<group>"; };
 		A02AE1C82A723641008882BD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A02AE1CA2A72368D008882BD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A02EF0942A786E370095A902 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		A02EF0962A7871370095A902 /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
-		A05483972A81F028005FAE68 /* TabBarC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarC.swift; sourceTree = "<group>"; };
+		A042B9772A85DB1300B5C733 /* closured.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = closured.playground; path = ../../../../images/closured.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A04397B92AA6F97400EDF355 /* testVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = testVideo.mp4; sourceTree = "<group>"; };
+		A04397BB2AA6FD6E00EDF355 /* NoteEditVC-DragDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-DragDrop.swift"; sourceTree = "<group>"; };
+		A04397BD2AA71BC000EDF355 /* NoteEditVC-CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteEditVC-CollectionView.swift"; sourceTree = "<group>"; };
 		A05483992A820739005FAE68 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A069009A2A9C6CD800DABE44 /* collectionview.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = collectionview.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A069009B2A9D68F900DABE44 /* 枚举.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "枚举.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A07514D12A6D16800069881F /* littlePink-git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "littlePink-git.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07514D42A6D16800069881F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A07514D62A6D16800069881F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A07514DD2A6D16820069881F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A07514E22A6D16820069881F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A084B3672A9F28DA00229F24 /* PhotoFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFooter.swift; sourceTree = "<group>"; };
+		A0A774CF2A9C1E260038BAC5 /* ARC+circular reference.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "ARC+circular reference.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A0A774D02A9C33EA0038BAC5 /* NoteEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditVC.swift; sourceTree = "<group>"; };
+		A0A774D22A9C451C0038BAC5 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		A0B4EC2F2A6F9FAA0034687C /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A0C79A1C2A75E5E700084545 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		A0C79A1E2A75ED2400084545 /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
@@ -55,6 +71,8 @@
 		A0C79A2D2A77716800084545 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		A0C79A2E2A77834900084545 /* testVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVC.swift; sourceTree = "<group>"; };
 		A0C79A302A77846700084545 /* testCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCell.swift; sourceTree = "<group>"; };
+		A0DDB4C92AA53CD800CD0A1F /* Little-Pink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Little-Pink-Bridging-Header.h"; sourceTree = "<group>"; };
+		A0F455172A9B339100119573 /* valueTypeAndReferenceType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = valueTypeAndReferenceType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A042B9752A844E0600B5C733 /* Demo+PH */ = {
+			isa = PBXGroup;
+			children = (
+				A02EF0942A786E370095A902 /* TabBarVC.swift */,
+			);
+			path = "Demo+PH";
+			sourceTree = "<group>";
+		};
 		A07514C82A6D16800069881F = {
 			isa = PBXGroup;
 			children = (
@@ -92,22 +118,43 @@
 		A07514D32A6D16800069881F /* littlePink-git */ = {
 			isa = PBXGroup;
 			children = (
+				A01A0F6F2A9EDD5200C37C6D /* metatype.playground */,
+				A01A0F702A9EE61500C37C6D /* Resources */,
+				A0A774CF2A9C1E260038BAC5 /* ARC+circular reference.playground */,
+				A0F455172A9B339100119573 /* valueTypeAndReferenceType.playground */,
+				A042B9772A85DB1300B5C733 /* closured.playground */,
+				A069009A2A9C6CD800DABE44 /* collectionview.playground */,
+				A069009B2A9D68F900DABE44 /* 枚举.playground */,
 				A07514D42A6D16800069881F /* AppDelegate.swift */,
 				A07514D62A6D16800069881F /* SceneDelegate.swift */,
 				A02AE1C82A723641008882BD /* Main.storyboard */,
+				A02AE1CA2A72368D008882BD /* LaunchScreen.storyboard */,
+				A084B3692A9F353100229F24 /* NoteEdit */,
 				A02EF0962A7871370095A902 /* PostVC.swift */,
-				A02EF0942A786E370095A902 /* TabBarVC.swift */,
-				A05483972A81F028005FAE68 /* TabBarC.swift */,
+				A042B9752A844E0600B5C733 /* Demo+PH */,
 				A0C79A302A77846700084545 /* testCell.swift */,
 				A0C79A2E2A77834900084545 /* testVC.swift */,
 				A0C79A2B2A7770CA00084545 /* WaterFall */,
 				A0C79A262A75F38A00084545 /* Home */,
 				A0C79A2C2A77710D00084545 /* Commen */,
-				A02AE1CA2A72368D008882BD /* LaunchScreen.storyboard */,
 				A07514DD2A6D16820069881F /* Assets.xcassets */,
 				A07514E22A6D16820069881F /* Info.plist */,
+				A0DDB4C92AA53CD800CD0A1F /* Little-Pink-Bridging-Header.h */,
+				A04397B92AA6F97400EDF355 /* testVideo.mp4 */,
 			);
 			path = "littlePink-git";
+			sourceTree = "<group>";
+		};
+		A084B3692A9F353100229F24 /* NoteEdit */ = {
+			isa = PBXGroup;
+			children = (
+				A0A774D02A9C33EA0038BAC5 /* NoteEditVC.swift */,
+				A04397BD2AA71BC000EDF355 /* NoteEditVC-CollectionView.swift */,
+				A084B3672A9F28DA00229F24 /* PhotoFooter.swift */,
+				A0A774D22A9C451C0038BAC5 /* PhotoCell.swift */,
+				A04397BB2AA6FD6E00EDF355 /* NoteEditVC-DragDrop.swift */,
+			);
+			path = NoteEdit;
 			sourceTree = "<group>";
 		};
 		A0C79A262A75F38A00084545 /* Home */ = {
@@ -198,9 +245,9 @@
 			developmentRegion = "zh-Hans";
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				en,
 				Base,
 				"zh-Hans",
-				en,
 			);
 			mainGroup = A07514C82A6D16800069881F;
 			productRefGroup = A07514D22A6D16800069881F /* Products */;
@@ -220,6 +267,7 @@
 				A0B4EC302A6F9FAA0034687C /* .gitignore in Resources */,
 				A02AE1CB2A72368E008882BD /* LaunchScreen.storyboard in Resources */,
 				A07514DE2A6D16820069881F /* Assets.xcassets in Resources */,
+				A04397BA2AA6FA7700EDF355 /* testVideo.mp4 in Resources */,
 				A02AE1C92A723641008882BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,16 +324,20 @@
 				A02EF0972A7871370095A902 /* PostVC.swift in Sources */,
 				A0C79A212A75ED4400084545 /* DiscoveryVC.swift in Sources */,
 				A07514D52A6D16800069881F /* AppDelegate.swift in Sources */,
-				A05483982A81F028005FAE68 /* TabBarC.swift in Sources */,
 				A0C79A312A77846700084545 /* testCell.swift in Sources */,
+				A0A774D32A9C451C0038BAC5 /* PhotoCell.swift in Sources */,
 				A0C79A1F2A75ED2400084545 /* FollowVC.swift in Sources */,
 				A0C79A2A2A77450900084545 /* WaterfallCell.swift in Sources */,
 				A0C79A1D2A75E5E700084545 /* HomeVC.swift in Sources */,
 				A0C79A252A75EF4B00084545 /* Constants.swift in Sources */,
 				A0C79A2F2A77834900084545 /* testVC.swift in Sources */,
+				A084B3682A9F28DA00229F24 /* PhotoFooter.swift in Sources */,
 				A054839A2A820739005FAE68 /* Extensions.swift in Sources */,
 				A0C79A232A75ED5500084545 /* NearVC.swift in Sources */,
+				A04397BE2AA71BC000EDF355 /* NoteEditVC-CollectionView.swift in Sources */,
+				A04397BC2AA6FD6E00EDF355 /* NoteEditVC-DragDrop.swift in Sources */,
 				A07514D72A6D16800069881F /* SceneDelegate.swift in Sources */,
+				A0A774D12A9C33EA0038BAC5 /* NoteEditVC.swift in Sources */,
 				A02EF0952A786E370095A902 /* TabBarVC.swift in Sources */,
 				A0C79A282A773CB800084545 /* waterFallVC.swift in Sources */,
 			);
@@ -419,16 +471,17 @@
 				DEVELOPMENT_TEAM = 9VX3RUK938;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "littlePink-git/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "小粉书";
-				INFOPLIST_KEY_NSCameraUsageDescription = "打开后可录制照片和视频上传";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "打开后可录制视频声音";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "打开后可选择照片和视频上传";
+				INFOPLIST_KEY_CFBundleDisplayName = Pink;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,6 +494,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "littlePink-git/Little-Pink-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -457,16 +511,17 @@
 				DEVELOPMENT_TEAM = 9VX3RUK938;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "littlePink-git/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "小粉书";
-				INFOPLIST_KEY_NSCameraUsageDescription = "打开后可录制照片和视频上传";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "打开后可录制视频声音";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "打开后可选择照片和视频上传";
+				INFOPLIST_KEY_CFBundleDisplayName = Pink;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,6 +534,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "littlePink-git/Little-Pink-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
